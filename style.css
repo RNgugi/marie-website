@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@423&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.container_wrapper{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.main_nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    /* background-color: rgb(255 255 255); */
+    background-color: rgb(126, 5, 126);
+    position: fixed; 
+    z-index: 1;
+    height: 80px;
+    align-items: center;
+
+}
+.main_nav *{
+    display: inline;
+}
+.main_nav img{
+    margin-left: 40px;
+}
+.main_nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 16px;
+    margin-right: 40px;
+}
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1px;
+    font-size: 0.9em;
+}
+ul li a:hover{
+    color: rgb(102, 4, 69);
+    color: rgb(103 84 226);
+    border-bottom: 2px solid #000;
+    font-size: 1.2em;
+}
+
+.icons{
+    display: flex;
+    flex-direction:row;
+    margin-right: 20px;
+}
+.icons i{
+    margin: 10px;
+    color: white;
+}
+main{
+    width: 100%;
+}
+/* home section */
+#home{
+    background-color: #a4d2ff;
+}
+.home_sec{
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.home_sec p{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.home_sec2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input_txt{
+    width: 600px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 50px;
+    border:1px solid #000;
+}
+.btn_1{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(126, 5, 126);
+    border: none;
+    margin-left: -160px;
+}
+.btn_1:hover{
+    background-color:#000;
+    color: rgb(126, 5, 126);
+}
+.btn_1:focus{
+    outline: none;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    
+    /* margin-top:150px; */
+}
+
+/* product section */
+
+.product_sec {
+    padding: 30px 0;
+    border-bottom: 1px solid #000000;
+    justify-content: center;
+    margin: 0 50px;
+}
+.product_sec p{
+    text-align: center;
+    align-items: center;
+}
+.images_clients{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-gap: 2em;
+    margin: 0 auto;
+}
+/* security section */
+.security h1{
+    text-align: center;
+    margin: 40px 0px 70px 0px;
+}
+.security_sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.support_section1{
+    align-items: center;
+    text-align: center;
+}
+.support_section1 p{
+    margin:10px 0;
+}
+.support_img{
+    margin-top: 30px;
+}
+.btn_support{
+    background-color: rgb(75, 16, 214);
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    margin: 15px 0 50px;
+}
+.services{
+    /* //background-color:#f8f9fa; */
+    background-color: purple;
+    padding-top: 100px;
+    
+}
+.services h1{
+
+    text-align: center;
+    align-items: center;
+    font-size: 1.8em;
+}
+.services .content1{
+    text-align: center;
+    margin: 15px 0 50px 0px;
+    font-size: 1.4em;
+}
+
+.card_sections{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+ width: 700px;
+ padding: 50px 0px 50px 20px;
+ color: #fff;
+ margin: 30px 20px;
+ border-radius: 10px;
+ background-color: rgb(75, 16, 214);
+ font-size: 1.2em;
+}
+.card2{
+width: 700px;
+padding: 50px 0px 50px 20px;
+background-color: #fff;
+border-radius: 10px;
+margin: 30px 20px;
+font-size: 1.2em;
+}
+.card2 h1{
+    color: rgb(12, 6, 6);
+    font-size: 1.2em;
+}
+/* integration section */
+#Intergrations{
+    width: 100%;
+    background-color: #eaeeff;
+}
+.intergrations_sec1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.intergrations_sec1 h1{
+    padding-top: 30px;
+}
+.intergrations_sec1 p{
+    margin: 10px 0;
+}
+.intergrations_sec2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.intergrations_sec3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.8em;
+    margin-right: 30px;
+}
+.footer_img{
+    margin-left: 30px;
+}
+.img1{
+    background-color: #fff;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
